@@ -1,0 +1,12 @@
+body{
+    margin: 25px;
+}
+p{
+    color: cadetblue;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+body {font-family: Arial; color:black;}
+h1 {font-family: verdana;}
+p {color: red;}
