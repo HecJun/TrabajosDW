@@ -8,56 +8,77 @@
         <link rel="stylesheet" href="">
     </head>
 
-    <body style="background-color:#f4fecb">
-        <center><h1 style="font-family: calibri;">Encuestas de Cine: Nominadas al Oscar 2019</h1></center>
-        <img src="img/cine 02.png" alt="Cine" title="Logo de cine">
-        <img src="img/cine 02.png" style="float: right" title="Logo de cine">
-        <form id="Formulario" name="Formulario 1" method="POST" action="data.php">
-            <fieldset style="font-family: calibri;" id="Datos Personales">
-                <legend>Datos Personales</legend>
-                <label for="nombre">Nombre</label> <br>
-                <input type="text" name="nombre" id="nombre"><br>
+    <body style="background-color:#f4fecb; color:#ffffff;">
+        <table width="100%">
+            <td align="center">
+                <img src="img/oscar.jpg" title="Estuatilla del Oscar" width="90%">
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td align="center">
+                            <img src="img/cine 02.png" width="60%" alt="Cine" title="Logo de cine">
+                        </td>
+                        <td align="center">
+                            <center><h1 style="font-family: calibri; color:#3393ff;">Encuestas de Cine: Nominadas al Oscar 2019</h1></center>
+                        </td>
+                        <td align="center">
+                            <img src="img/cine 01.png" style="float: right" title="Logo de cine">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" bgcolor="##3393ff">
+                            <form id="Formulario" name="Formulario 1" method="POST" action="data.php">
+                                <fieldset style="font-family: calibri;" id="Datos Personales">
+                                    <legend>Datos Personales</legend>
+                                    <label for="nombre">Nombre</label> <br>
+                                    <input type="text" size="50" name="nombre" id="nombre"><br>
 
-                <label for="apellidos">Apellidos</label> <br>
-                <input type="text" name="apellidos" id="apellidos"><br>
+                                    <label for="apellidos">Apellidos</label> <br>
+                                    <input type="text" size="50" name="apellidos" id="apellidos"><br>
 
-                <label for="dni">DNI</label> <br>
-                <input type="text" name="dni" id="dni" maxlength="8"><br>
-               
-                <label for="edad">Edad</label> <br>
-                <input type="text" name="edad" id="edad" size="2" maxlength="2"> <br>
+                                    <label for="dni">DNI</label> <br>
+                                    <input type="text" size="50" name="dni" id="dni" maxlength="8"><br>
+                                   
+                                    <label for="edad">Edad</label> <br>
+                                    <input type="text" size="50" name="edad" id="edad" size="2" maxlength="2"> <br>
 
-                <label for="telefono">Teléfono</label> <br>
-                <input type="text" name="telefono" id="telefono" maxlength="9">
-            </fieldset>
+                                    <label for="telefono">Teléfono</label> <br>
+                                    <input type="text" size="50" name="telefono" id="telefono" maxlength="9">
+                                </fieldset>
 
-            <fieldset style="font-family:calibri;">
-                <legend>Mejor Pelicula</legend>
-                <input type="Radio" name="Pelicula" value="11"> Black Panther<br>
-                <input type="Radio" name="Pelicula" value="22"> Green Book<br>
-                <input type="Radio" name="Pelicula" value="33"> Roma<br>
-                <input type="Radio" name="Pelicula" value="44"> Ha nacido una estrella<br>
-                <input type="Radio" name="Pelicula" value="55"> El vicio del poder<br>
-                <input type="Radio" name="Pelicula" value="66"> La favorita<br>
-            </fieldset>
+                                <fieldset style="font-family:calibri;">
+                                    <legend>Mejor Pelicula</legend>
+                                    <input type="Radio" name="Pelicula" value="11"> Black Panther<br>
+                                    <input type="Radio" name="Pelicula" value="22"> Green Book<br>
+                                    <input type="Radio" name="Pelicula" value="33"> Roma<br>
+                                    <input type="Radio" name="Pelicula" value="44"> Ha nacido una estrella<br>
+                                    <input type="Radio" name="Pelicula" value="55"> El vicio del poder<br>
+                                    <input type="Radio" name="Pelicula" value="66"> La favorita<br>
+                                </fieldset>
 
-            <fieldset style="font-family: calibri;">
-                <legend>Selecciona las peliculas que no hayas visto</legend>
-                <input type="checkbox" name="Pelicula" value="11"> Black Panther<br>
-                <input type="checkbox" name="Pelicula" value="22"> Green Book<br>
-                <input type="checkbox" name="Pelicula" value="33"> Roma<br>
-                <input type="checkbox" name="Pelicula" value="44"> Ha nacido una estrella<br>
-                <input type="checkbox" name="Pelicula" value="55"> El vicio del poder<br>
-                <input type="checkbox" name="Pelicula" value="66"> La favorita<br>
-            </fieldset>
+                                <fieldset style="font-family: calibri;">
+                                    <legend>Selecciona las peliculas que no hayas visto</legend>
+                                    <input type="checkbox" name="Pelicula" value="11"> Black Panther<br>
+                                    <input type="checkbox" name="Pelicula" value="22"> Green Book<br>
+                                    <input type="checkbox" name="Pelicula" value="33"> Roma<br>
+                                    <input type="checkbox" name="Pelicula" value="44"> Ha nacido una estrella<br>
+                                    <input type="checkbox" name="Pelicula" value="55"> El vicio del poder<br>
+                                    <input type="checkbox" name="Pelicula" value="66"> La favorita<br>
+                                </fieldset>
 
-            <fieldset style="font-family: calibri;" id="grupo_argumento">
-                <legend>Argumento de tu pelicula favorita</legend>
-                <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
-            </fieldset>
-            <br>
-            <input type="reset" value="Borrar formulario"><input type="submit" value="Enviar">
-        </form>
-        
+                                <fieldset style="font-family: calibri;" id="grupo_argumento">
+                                    <legend>Argumento de tu pelicula favorita</legend>
+                                    <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
+                                </fieldset>
+                                <br>
+                                <input type="reset" style="background-color: #0000ff; color:#ffffff;" value="Borrar formulario">
+                                <input type="submit" style="background-color: #0000ff; color:#ffffff;" value="Enviar">
+                            </form>    
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </table>
     </body>
 </html>
