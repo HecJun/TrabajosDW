@@ -5,18 +5,23 @@ main{
 
 header{
     background-color: chartreuse;
+    width: 1200px;
+    height: 80px;
+    float: left;
 }
 
 nav{
     background-color: green;
     float: left;
     width: 300px;
+    height: 172px;
 }
 
 article{
     float: left;
     background-color: grey;
-    width: 880px;
+    width: 900px;
+    height: 172px;
 }
 
 footer{

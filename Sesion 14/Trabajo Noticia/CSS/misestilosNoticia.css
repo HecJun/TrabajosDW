@@ -1,9 +1,7 @@
 #caja1 {background-color:white; height: 1000px;}
 
-#caja2 {background-color: blue;width: 600px;height: 200px;float: right;}
+#caja2 {background-color: blue; width: 500px; height: 150px; float: right;}
 
 #caja3 {background-color: green;}
 
-#caja4 {background-color: yellow; width: 200px;float: right;}
-
-
+#caja4 {background-color: yellow; width: 200px; float: right;}

@@ -1,0 +1,263 @@
+#principal{
+	width: auto		;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+
+}
+
+header{
+	background-color: darkcyan;
+	width: auto;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin-top: 10px;
+	 
+}
+#contenedor{
+	width: auto;
+	height: 60%;
+}
+#nombre{
+	width: 40%;
+	height: 40px;
+	border: 0px solid #000;
+	float: right; font-family: sans-serif;
+
+	position:absolute;
+	top: 50px;
+	left:150px;
+	
+}
+#sesion{
+	width: 400%;
+	height: 40px;
+	border: 0px solid #000;
+	float: right; font-family: sans-serif;
+	position:absolute;
+	top: 20px;
+	left: 85%;
+		
+}
+
+#sesion>a{
+	text-decoration: none;
+	color: black;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: auto;
+}
+
+.sub-titulo{
+	font-size: 14px;
+	margin-top: -20px;
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 40px;
+	background: black;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+}
+
+.menu ul li a:hover{
+	background: blue;
+	color: white;
+	transition: background 1s, color 1s;
+}
+
+#slide{
+	margin:1%;
+	width: 50px;
+	height:60px;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+}
+
+#info{
+	width: auto;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; 
+	 
+}
+
+#izq{
+	width: 70%;
+	height: auto; overflow: hidden;
+	float: left;
+	padding: 5px; color: black;
+	border: 1px;
+}
+
+#menu_item{
+	margin: 5%;
+	width: 90%;
+	height: 50%;
+	border: 1px solid #ccc;
+	float: right;
+	background-color: darkcyan;
+}
+
+#enlace_item{
+	margin: 5%;
+	width: 90%;
+	height: 50%;
+	border: 1px solid #ccc;
+	float: right;
+	background-color: darkcyan;
+}
+
+#der{
+	background-color: aquamarine;
+	width: 25%;
+	height: auto;
+	border: 1px solid #ccc;
+	float: right;
+	color: #000
+}
+
+footer{
+	width: 100%;
+	height: auto;overflow: hidden;
+	background-color: darkcyan;
+	margin-top: 10px;
+	float: left;
+}
+.Footer-content{
+	padding-top:15px
+}
+
+.Footer-section ul{
+	margin:10px 0 20px;
+	padding:0;
+}
+.Footer-section li{
+	margin:0 0 8px;
+	padding:0;
+	list-style-type:none
+}
+.Footer-section a{
+	color:black
+}
+
+.Footer-section{
+	margin-right:6%;width:43%
+}
+.Footer-content{
+	display:flex
+}
+.Footer-section img{
+	position:absolute;
+	top: 640px;
+	left:80px;
+}
+.pie{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial;   
+    size: 10px;
+    text-align: center;
+}
+/*------------contacto------------------------*/
+#formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	padding: 5px;
+	float: left
+}
+
+#mapa{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: right;
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 95%;
+	background: darkcyan;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 95%;
+	background: darkcyan;
+}
+
+.enviar, .limpiar{
+	padding: 10px 20px;
+	background: blue;
+	color: #fdfdfd;
+	font-size: 16px;
+	margin: 5px;
+}
+
+#form{
+	background-color: aquamarine;
+}
+
+#datos{
+	margin-top: 30px;
+}
+
+.uno{
+	width: 150px;
+	height: 100; 
+	overflow: hidden;
+	float: left;
+	padding: 2px;
+	text-align: center;
+	color: black;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.ver{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.ver:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+ul>li>a{
+	text-decoration: none;
+	color: black;
+ }
+
+ #registrarse, #ingresar{
+	padding: 10px 20px;
+	background: blue;
+	color: #fdfdfd;
+	font-size: 16px;
+	margin: 5px;
+}

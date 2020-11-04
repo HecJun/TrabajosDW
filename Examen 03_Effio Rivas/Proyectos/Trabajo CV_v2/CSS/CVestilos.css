@@ -1,0 +1,59 @@
+body{
+    color: blue;
+    font-family: Arial;
+    background-color:#00ffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+th{
+    color: red;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+a{
+    color: #ffffff;
+    font-family: Arial;   
+    size: 10px;
+}
+
+.cabecera{
+    background-color: #0000ff;
+    color: yellow;
+    font-family: Arial Black;   
+    size: 14px;
+    text-align: center;
+}
+
+.pie{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial;   
+    size: 10px;
+    text-align: center;
+}
+
+.nombre{
+    background-color: #0000ff;
+    color: yellow;
+    font-family: Arial;   
+    size: 9px;
+    text-align: left;
+}
+
+.subtitulo{
+    background-color: #0000ff;
+    color: yellow;
+    font-family: Brodway;   
+    size: 10px;
+    text-align: left;
+}
+
+.menu{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial;   
+    size: 10px;
+    text-align: right;
+}
