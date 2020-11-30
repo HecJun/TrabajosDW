@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <title>Eventos de formularios en JQuery</title>
+    <meta http-equiv="X-AU-Compatible" content="ie=edge" />
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/misScript.js"></script>
+</head>
+<body>
+    <div id="log"> </div>
+      <form name="form1" id="form1" method="post" action="#">
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" value="" /><br />
+          <label for="apellido1">Apellido 1º:</label>
+          <input type="text" name="apellido1" id="apellido1" value="" />
+          <label for="apellido2">Apellido 2º:</label>
+          <input type="text" name="apellido2" id="apellido2" value="" /><p />
+          <input type="button" name="btnSeleccionar" id="btnSeleccionar" value="Seleccionar texto del nombre" />
+          <input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar formulario" />
+      </form>
+      <p>Realiza los siguientes pasos y comprueba el resultado:</p>
+      <ul>
+          <li>Haz clic en el nombre para darle el foco, y después en otro cuadro de texto.</li>
+          <li>Escribe algo en el primer apellido y después cambia a otro cuadro de texto.</li>
+          <li>Escribe algo en el recuadro del segundo apellido y selecciónalo después.</li>
+          <li>Pulsa el botón para seleccionar el texto del nombre.</li>
+      </ul>
+</body>
+</html>
+
+

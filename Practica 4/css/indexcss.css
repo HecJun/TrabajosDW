@@ -1,0 +1,60 @@
+
+main{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium';
+    background-color: white;
+    width: 100%;
+
+}
+#caja1{
+    
+    width: 10%;
+    float: left;
+    margin-left:20px;
+    margin-top: 13px;
+    
+}
+
+#caja2{
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+header{
+    color:white;
+    background-color: #168ABA;
+    
+    
+}
+.facebook,.twitter,.instagram{
+    margin-top: 20px;
+}
+
+#navbar1{
+    margin-left: 40rem;
+    
+}
+
+article{
+    width: 100%;
+    float: left;
+    background-image: url("../img/fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    clear: both;
+    background-color: #B1ECF5;
+    color:#2c7963;
+}
+h1,p{
+    margin:0px;
+    padding:10px;
+}
+#descripcion{
+    margin-left: 1rem;
+    
+}

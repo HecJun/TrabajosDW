@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indexcss.css">
+    <link rel="stylesheet" href="css/carrocss.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Hotel Walomar</title>
+</head>
+<body>
+    <main>
+    <header>
+        <div id="caja1">
+            <img width="130px", height="120px"src="img/logo.png" alt="perfil">
+        </div>
+        <div id="caja2"> 
+            <h1> HOTEL WALOMAR</h1>
+            
+        </div>
+       
+        <nav class="navbar navbar-expand-lg  ">
+        <div class="collapse navbar-collapse my-lg-4" id="navbar1">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white" href="#">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white " href="carrito.html">Reservar</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-4 ">
+                <input class="form-control mr-sm-2" type="search" placeholder="Ingrese búsqueda" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 text-white " type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+       
+    </header>
+    
+    <article>
+      <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito de Compras</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: S&sol;<span id="total"></span></p>
+                <hr></hr>
+                <form>
+                  <span class="span">Nombre:</span>
+                  <input type="text" placeholder="Nombre" id="nombre"><br><br>
+                  <span class="span">Email: </span>
+                  <input type="Email" placeholder="Email" id="email"><br><br>
+                  <span class="span">Num Tarjeta: </span>
+                  <input type="text" placeholder="Tarjeta" id="tarjeta"><br><br>
+                  <span class="span">CVV: </span>
+                  <input type="number" placeholder="CVV" id="cvv">
+                </form><hr>
+                <button onclick="guardarDato()" class="btn btn-danger">Enviar Reserva</button>
+                <button id="boton-vaciar" class="btn btn-danger">Nueva Reserva</button>
+                <p></p>
+                <ul id="carro"></ul>
+            </aside>
+        </div>
+    </div>    
+    <script type="text/javascript" src="js/JS_Hotel.js"></script>
+        
+    </article>
+    
+    
+        
+    </aside>
+    <footer class="page-footer font-small blue pt-1">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">Direccion Y CONTACTO</h5>
+      
+              <ul class="list-unstyled">
+                <li>Diego Ferre 102, Etén 14810</li>
+                <li>Teléfono:(074) 487036</li>
+                
+              </ul>
+            </div>
+            <div class="col-md-6 mb-md-0 mb-4">
+                <h5 class="text-uppercase">SERVICIOS</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Alquiler de Habitaciones</a>
+                  </li>
+                  <li>
+                    <a href="#!">Hospedajes</a>
+                  </li>
+                  <li>
+                    <a href="#!">Reservas</a>
+                  </li>
+                  <li>
+                    <a href="#!">Consultas</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="facebook" style="width:5rem;">
+                <a href="https://www.facebook.com/"><img width="50px", height="50px"src="img/facebook.png" alt="face"></a>
+              </div>
+              <div class="twitter" style="width:5rem;">
+                <a href="https://twitter.com/"><img width="50px", height="50px"src="img/twitter.png" alt="twit"></a>
+              </div>
+              <div class="instagram" style="width:5rem;">
+                <a href="https://www.instagram.com/?hl=es-la"><img width="50px", height="50px"src="img/instagram.png" alt="insta"></a>
+              </div>
+              
+
+          </div>
+        </div>
+        
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/"> GRUPO6</a>
+        </div>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+</main>
+</body>
+</html>
